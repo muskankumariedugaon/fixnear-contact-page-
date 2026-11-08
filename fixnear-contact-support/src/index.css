@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-field {
+    @apply w-full min-h-[44px] px-3 rounded-lg border border-[#E8DFCF] bg-[#F9F6EF] text-sm outline-none focus:border-[#204B3B] focus:ring-2 focus:ring-[#204B3B]/10 placeholder:text-[#A5A99D];
+  }
+  .hint {
+    @apply text-[10px] text-[#859083] mt-2 leading-4;
+  }
+}
